@@ -1,7 +1,7 @@
 ﻿using GameOfLife;
+using NUnit.Framework;
 using Shouldly;
 using System;
-using Xunit;
 
 namespace GameOfLifeSpecificationGameOfLife
 {
@@ -56,9 +56,10 @@ namespace GameOfLifeSpecificationGameOfLife
         }
     }
 
+    [TestFixture]
     public class GoLSpecyfication
     {
-        [Fact]
+        [Test]
         public void ShouldCreateEmptyBoard()
         {
             //Given
@@ -69,7 +70,7 @@ namespace GameOfLifeSpecificationGameOfLife
             board.Height.ShouldBe(5);
         }
 
-        [Fact]
+        [Test]
         public void ShouldInitBlinkerObject()
         {
             //Given
@@ -82,7 +83,7 @@ namespace GameOfLifeSpecificationGameOfLife
             board.Table.ShouldBe(helper.CreateBlinkerFirstState(1, 2));
         }
 
-        [Fact]
+        [Test]
         public void ShouldInvokeBoardGeneration()
         {
             //Given
@@ -96,7 +97,7 @@ namespace GameOfLifeSpecificationGameOfLife
             board.Table.ShouldBe(helper.CreateBlinkerSecondState(2,1));
         }
 
-        [Fact]
+        [Test]
         public void BlinkerAfter2GenerationShouldReturnToInitState()
         {
             //Given
@@ -111,7 +112,7 @@ namespace GameOfLifeSpecificationGameOfLife
             board.Table.ShouldBe(helper.CreateBlinkerFirstState(1, 2));
         }
 
-        [Fact]
+        [Test]
         public void BlockShouldBeTheSameBlock()
         {
             //Given
@@ -126,7 +127,7 @@ namespace GameOfLifeSpecificationGameOfLife
             board.Table.ShouldBe(helper.CreateBlock(1,1));
         }
 
-        [Fact]
+        [Test]
         public void ShouldThrowsArgumentExceptionWhenBoardIsOutOfRange()
         {
             //Given
