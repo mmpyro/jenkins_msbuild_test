@@ -15,6 +15,7 @@
     {
         public void Perform(bool currentCell, int numberOfLivesNeighbour, ref bool buffor)
         {
+            //todo: refactor this
             if (currentCell && numberOfLivesNeighbour < 2)
                 buffor = false;
             else if (currentCell && numberOfLivesNeighbour == 2 || numberOfLivesNeighbour == 3)
