@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<test-results name="Test results" date="2016-10-28" time="18:21:18" total="6" failures="0" not-run="0">
+  <test-suite name="xUnit.net Tests" success="True" time="0.213">
+    <results>
+      <test-suite name="E:\Projects\Tests\GameOfLife\GameOfLifeSpecification\bin\Debug\GameOfLifeSpecification.DLL" success="True" time="0.213">
+        <results>
+          <test-suite name="Test collection for GameOfLifeSpecificationGameOfLife.GoLSpecyfication" success="True" time="0.114">
+            <results>
+              <test-case name="GameOfLifeSpecificationGameOfLife.GoLSpecyfication.BlockShouldBeTheSameBlock" executed="True" success="True" time="0.0760893" />
+              <test-case name="GameOfLifeSpecificationGameOfLife.GoLSpecyfication.ShouldInvokeBoardGeneration" executed="True" success="True" time="0.0004902" />
+              <test-case name="GameOfLifeSpecificationGameOfLife.GoLSpecyfication.BlinkerAfter2GenerationShouldReturnToInitState" executed="True" success="True" time="0.000483" />
+              <test-case name="GameOfLifeSpecificationGameOfLife.GoLSpecyfication.ShouldCreateEmptyBoard" executed="True" success="True" time="0.0048578" />
+              <test-case name="GameOfLifeSpecificationGameOfLife.GoLSpecyfication.ShouldThrowsArgumentExceptionWhenBoardIsOutOfRange" executed="True" success="True" time="0.0316575" />
+              <test-case name="GameOfLifeSpecificationGameOfLife.GoLSpecyfication.ShouldInitBlinkerObject" executed="True" success="True" time="0.0002041" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="SonarQube - GameofLife Sonar way" ToolsVersion="14.0">
+  <Include Path="..\sonarqube\gameoflifecsharp.ruleset" Action="Default" />
+</RuleSet>

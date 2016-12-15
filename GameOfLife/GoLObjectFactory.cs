@@ -6,6 +6,8 @@ namespace GameOfLife
     {
         public static IGoLObject Create(GoLPatterns @object)
         {
+            string x = null;
+            bool result = x.EndsWith("x");
             switch (@object)
             {
                 case GoLPatterns.Blinker:

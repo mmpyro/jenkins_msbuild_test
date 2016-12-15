@@ -1,0 +1,10 @@
+{
+  "ServerUri": "http://192.168.56.102:9000/",
+  "ProjectKey": "GameofLife",
+  "Profiles": {
+    "CSharp": {
+      "ProfileKey": "cs-sonar-way-33331",
+      "ProfileTimestamp": "2016-12-15T17:51:15+01:00"
+    }
+  }
+}
