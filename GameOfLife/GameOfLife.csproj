@@ -24,7 +24,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <CodeAnalysisRuleSet>gameoflife.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet>..\GameOfLifeSpecification\GameOfLifeSpecification.ruleset</CodeAnalysisRuleSet>
     <RunCodeAnalysis>true</RunCodeAnalysis>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -50,6 +50,7 @@
     <Compile Include="Blinker.cs" />
     <Compile Include="Block.cs" />
     <Compile Include="Board.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="GoLObject.cs" />
     <Compile Include="GoLObjectFactory.cs" />
     <Compile Include="IRule.cs" />
